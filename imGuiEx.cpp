@@ -94,7 +94,7 @@ int main()
 	int my_image_width = 0;
 	int my_image_height = 0;
 	GLuint my_image_texture = 0;
-	bool ret = LoadTexutreFromFile("D:\\ImGuiEx\\fruitImage.jpg", &my_image_texture, &my_image_width, &my_image_height);
+	bool ret = LoadTexutreFromFile("C:/Users/jaisw/OneDrive - University of Florida/Documents/VS_projects/imGuiEx/fruitImage.jpg", &my_image_texture, &my_image_width, &my_image_height);
 	if (!ret)
 	{
 		std::cout << "Unable to load the image file" << std::endl;
